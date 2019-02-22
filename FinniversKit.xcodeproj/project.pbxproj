@@ -208,6 +208,14 @@
 		CF3D5EF9215A6F3B006E4D08 /* EasterEggButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D5EF8215A6F3B006E4D08 /* EasterEggButton.swift */; };
 		CF3D5EFC215A7215006E4D08 /* DrumMachineDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D5EFB215A7215006E4D08 /* DrumMachineDemoView.swift */; };
 		CF3D5F00215A75BF006E4D08 /* InstrumentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3D5EFF215A75BF006E4D08 /* InstrumentTests.swift */; };
+		CF3DCF94221EA29400997C4D /* EarthHourView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCF93221EA29400997C4D /* EarthHourView.swift */; };
+		CF3DCF96221EA2FD00997C4D /* EarthHourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCF95221EA2FD00997C4D /* EarthHourViewModel.swift */; };
+		CF3DCF99221EA32A00997C4D /* EarthHourDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCF98221EA32A00997C4D /* EarthHourDemoView.swift */; };
+		CF3DCF9B221EA33900997C4D /* EarthHourDefaultData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCF9A221EA33900997C4D /* EarthHourDefaultData.swift */; };
+		CF3DCF9D221EA85000997C4D /* EarthHourHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCF9C221EA85000997C4D /* EarthHourHeaderView.swift */; };
+		CF3DCF9F221EAEDB00997C4D /* EarthHourContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCF9E221EAEDB00997C4D /* EarthHourContentView.swift */; };
+		CF3DCFA1221EAEFF00997C4D /* EarthHourCompletionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCFA0221EAEFF00997C4D /* EarthHourCompletionView.swift */; };
+		CF3DCFA3221ECEC500997C4D /* EarthHourTagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DCFA2221ECEC500997C4D /* EarthHourTagView.swift */; };
 		CF3DEDB4219465F300DB3E5A /* FrontPageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3DEDB3219465F300DB3E5A /* FrontPageView.swift */; };
 		CF4A053721FB2ACB000BB7DA /* PianoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A052821FB2ACA000BB7DA /* PianoView.swift */; };
 		CF4A053821FB2ACB000BB7DA /* PianoKeyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4A052A21FB2ACA000BB7DA /* PianoKeyView.swift */; };
@@ -526,6 +534,14 @@
 		CF3D5EF8215A6F3B006E4D08 /* EasterEggButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasterEggButton.swift; sourceTree = "<group>"; };
 		CF3D5EFB215A7215006E4D08 /* DrumMachineDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrumMachineDemoView.swift; sourceTree = "<group>"; };
 		CF3D5EFF215A75BF006E4D08 /* InstrumentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstrumentTests.swift; sourceTree = "<group>"; };
+		CF3DCF93221EA29400997C4D /* EarthHourView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourView.swift; sourceTree = "<group>"; };
+		CF3DCF95221EA2FD00997C4D /* EarthHourViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourViewModel.swift; sourceTree = "<group>"; };
+		CF3DCF98221EA32A00997C4D /* EarthHourDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourDemoView.swift; sourceTree = "<group>"; };
+		CF3DCF9A221EA33900997C4D /* EarthHourDefaultData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourDefaultData.swift; sourceTree = "<group>"; };
+		CF3DCF9C221EA85000997C4D /* EarthHourHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourHeaderView.swift; sourceTree = "<group>"; };
+		CF3DCF9E221EAEDB00997C4D /* EarthHourContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourContentView.swift; sourceTree = "<group>"; };
+		CF3DCFA0221EAEFF00997C4D /* EarthHourCompletionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourCompletionView.swift; sourceTree = "<group>"; };
+		CF3DCFA2221ECEC500997C4D /* EarthHourTagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EarthHourTagView.swift; sourceTree = "<group>"; };
 		CF3DEDB3219465F300DB3E5A /* FrontPageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrontPageView.swift; sourceTree = "<group>"; };
 		CF4A052821FB2ACA000BB7DA /* PianoView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoView.swift; sourceTree = "<group>"; };
 		CF4A052A21FB2ACA000BB7DA /* PianoKeyView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PianoKeyView.swift; sourceTree = "<group>"; };
@@ -1068,6 +1084,7 @@
 		4447F6641FDB2B110033DBC1 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CF3DCF92221EA27E00997C4D /* EarthHour */,
 				CF136ACB220320DD00247B30 /* Infobox */,
 				DAB7FAAC21B690E900BF8CC6 /* BottomSheet */,
 				AF91BB95202C7487003E6366 /* Broadcast */,
@@ -1497,6 +1514,28 @@
 			path = DrumMachine;
 			sourceTree = "<group>";
 		};
+		CF3DCF92221EA27E00997C4D /* EarthHour */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DCF93221EA29400997C4D /* EarthHourView.swift */,
+				CF3DCF95221EA2FD00997C4D /* EarthHourViewModel.swift */,
+				CF3DCF9C221EA85000997C4D /* EarthHourHeaderView.swift */,
+				CF3DCF9E221EAEDB00997C4D /* EarthHourContentView.swift */,
+				CF3DCFA0221EAEFF00997C4D /* EarthHourCompletionView.swift */,
+				CF3DCFA2221ECEC500997C4D /* EarthHourTagView.swift */,
+			);
+			path = EarthHour;
+			sourceTree = "<group>";
+		};
+		CF3DCF97221EA31A00997C4D /* EarthHour */ = {
+			isa = PBXGroup;
+			children = (
+				CF3DCF98221EA32A00997C4D /* EarthHourDemoView.swift */,
+				CF3DCF9A221EA33900997C4D /* EarthHourDefaultData.swift */,
+			);
+			path = EarthHour;
+			sourceTree = "<group>";
+		};
 		CF4A052721FB2ACA000BB7DA /* Piano */ = {
 			isa = PBXGroup;
 			children = (
@@ -1608,6 +1647,7 @@
 		CF8F021421DCC5B2004C4042 /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				CF3DCF97221EA31A00997C4D /* EarthHour */,
 				CF39ADFB22034E9C002FC43E /* Infobox */,
 				083349EA21EF24AE000E68D3 /* BottomSheet */,
 				CF8F021D21DCC691004C4042 /* Broadcast */,
@@ -2497,6 +2537,7 @@
 				08796D8E21CB97200023A441 /* HeartSubtitleCellDemoView.swift in Sources */,
 				CFE43E50219B150D00D3D5F7 /* FrontPageViewDefaultData.swift in Sources */,
 				441FE43E209A254900B04EF1 /* MarketsGridViewDemoView.swift in Sources */,
+				CF3DCF9B221EA33900997C4D /* EarthHourDefaultData.swift in Sources */,
 				082D80D321C1440D00831BDE /* EmptyChristmasViewDemoView.swift in Sources */,
 				45D7C57120494F77000E788F /* SwitchViewDemoView.swift in Sources */,
 				45B2E074207E184D00C68B92 /* InlineConsentDemoView.swift in Sources */,
@@ -2536,6 +2577,7 @@
 				43EA9793219965F3003A548A /* SoldViewDemoView.swift in Sources */,
 				CF15D9B3215B94FC004F5F02 /* EasterEggButtonDemoView.swift in Sources */,
 				144959E02122D8C20084549F /* AssetsDemoView.swift in Sources */,
+				CF3DCF99221EA32A00997C4D /* EarthHourDemoView.swift in Sources */,
 				DAC7DCAF215386E4004602A3 /* SettingsViewDemoView.swift in Sources */,
 				44A149F12137805C0053D5F7 /* SavedSearchesListViewDemoView.swift in Sources */,
 				CFF9727321C3BA2200C85238 /* BannerTransparencyDemoView.swift in Sources */,
@@ -2583,6 +2625,7 @@
 				F26852FC2201DAD8000978C8 /* UserAdsListViewSeeAllAdsCell.swift in Sources */,
 				082D80CB21C13C7B00831BDE /* RoundedRectangleGiftView.swift in Sources */,
 				443A6420209A5044006BFB38 /* NotificationsListFooterView.swift in Sources */,
+				CF3DCFA1221EAEFF00997C4D /* EarthHourCompletionView.swift in Sources */,
 				F26852D821F753A5000978C8 /* UserAdsListHeaderView.swift in Sources */,
 				441FE44E209A2F2C00B04EF1 /* NotificationsListView.swift in Sources */,
 				4447F6EF1FDB2B110033DBC1 /* ToastView+Style.swift in Sources */,
@@ -2619,6 +2662,7 @@
 				441D699D1FEA947600CD919A /* Layout.swift in Sources */,
 				44898D621FE5B9C200F6017B /* UIImageExtensions.swift in Sources */,
 				431875C321118CE200D71723 /* ReviewViewDefaultData.swift in Sources */,
+				CF3DCF94221EA29400997C4D /* EarthHourView.swift in Sources */,
 				441FE44B209A2F2C00B04EF1 /* NotificationsListViewCell.swift in Sources */,
 				082D80D521C15C9200831BDE /* CandyCaneView.swift in Sources */,
 				45EDD63E20A9CA22008F4503 /* PopupView.swift in Sources */,
@@ -2657,6 +2701,7 @@
 				CFF9727121C3BA1D00C85238 /* BannerTransparencySectionView.swift in Sources */,
 				0817FFCE21831045001BD9C4 /* AnimatedRadiobuttonView.swift in Sources */,
 				43EA977F21941E5D003A548A /* SoldView.swift in Sources */,
+				CF3DCF9D221EA85000997C4D /* EarthHourHeaderView.swift in Sources */,
 				14C6F7D3212324CA00A7230C /* FavoritesListViewCell.swift in Sources */,
 				CF3D5EF9215A6F3B006E4D08 /* EasterEggButton.swift in Sources */,
 				08796D9321CB982F0023A441 /* SelectableTableViewCellViewModel.swift in Sources */,
@@ -2676,6 +2721,8 @@
 				CF4A053D21FB2ACB000BB7DA /* PianoKeyboardView.swift in Sources */,
 				14C6F7D4212324CA00A7230C /* FavoritesListView.swift in Sources */,
 				CF848C2C21C7E0860086530E /* CogWheelButton.swift in Sources */,
+				CF3DCF9F221EAEDB00997C4D /* EarthHourContentView.swift in Sources */,
+				CF3DCFA3221ECEC500997C4D /* EarthHourTagView.swift in Sources */,
 				CFE43E4C219B13B400D3D5F7 /* FrontPageViewModel.swift in Sources */,
 				F26852D621F7530A000978C8 /* UserAdsListView.swift in Sources */,
 				DAB7FAAB21B690DD00BF8CC6 /* BottomSheetInteractionController.swift in Sources */,
@@ -2684,6 +2731,7 @@
 				441FE434209A24E500B04EF1 /* AdsGridView.swift in Sources */,
 				468F59F2220B20EA001CC0C5 /* MarketsGridViewFlowLayout.swift in Sources */,
 				F26852DA21F75435000978C8 /* UserAdsListViewCell.swift in Sources */,
+				CF3DCF96221EA2FD00997C4D /* EarthHourViewModel.swift in Sources */,
 				44C6CE44209CABFE00929269 /* FinniversImageAsset.swift in Sources */,
 				08D70A19218328EB003E2222 /* IconTitleTableViewCell.swift in Sources */,
 				44587019213FA344009187BE /* RegisterViewModel.swift in Sources */,

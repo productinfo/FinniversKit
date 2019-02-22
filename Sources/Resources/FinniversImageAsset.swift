@@ -35,8 +35,13 @@ public enum FinniversImageAsset: String {
     case check
     case checkmarkBig
     case classifieds
+    case close
     case distance
     case download
+    case earthHourClock
+    case earthHourEarth
+    case earthHourEyes
+    case earthHourStars
     case easterEgg
     case edit
     case editBig
@@ -126,8 +131,13 @@ public enum FinniversImageAsset: String {
             .check,
             .checkmarkBig,
             .classifieds,
+            .close,
             .distance,
             .download,
+            .earthHourClock,
+            .earthHourEarth,
+            .earthHourEyes,
+            .earthHourStars,
             .easterEgg,
             .edit,
             .editBig,
